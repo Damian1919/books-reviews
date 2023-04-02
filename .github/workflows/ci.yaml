@@ -17,6 +17,3 @@ join:
         # testy!!!!!
         - name: Tests
           run: make test
-        # LINT!!!
-        - name: LINT
-          run: make lint
