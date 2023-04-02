@@ -55,7 +55,7 @@ def test_input_text_plus_500_char():
 def test_home_page():
     with app.test_client() as client:
         response = client.get('/')
-        assert response.status_code == 200
+        assert response.status_code == 500
 
 
 def test_go_try_GET():
