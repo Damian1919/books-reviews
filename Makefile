@@ -21,3 +21,5 @@ lint:
 	source .venv/bin/activate
 	flake8 main wsgi
 
+test:
+	python -m pytest test.py
