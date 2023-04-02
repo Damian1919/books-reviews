@@ -2,7 +2,7 @@ name: Test Project
 
 on: [ push ]
 
-join:
+jobs:
     build_and_test:
       runs-on: ubuntu-latest
 
